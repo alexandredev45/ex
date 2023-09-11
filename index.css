@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+:root{
+    --azul02:    #07689f;
+    --amarelo02: #facf39;
+    --branco:    #ffffff;
+    --azul01:    #0988d0;
+    --azul03:    #05486e;
+    --amarelo01: #fbfb6b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*MENU*/
+header{
+    margin: auto;
+    width: 90%;
+    background-color: var(--azul01);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*APRESENTACAO*/
+.box_img_topo img{
+    width: 400px;
+    border: 5px solid var(--branco);
+    box-shadow: 5px 5px 100px 10px var(--amarelo02);
+    background-color: var(--azul01);
+    padding: 2rem;
+}
+#apresentacao{
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#apresentacao .text h2{
+    width: 650px;
+    font-size: 3.5rem;
+    margin: 2rem;
+    font-weight: bolder;
+    background-color: var(--amarelo01);
+}
+#apresentacao .text h3{
+    width: 500px;
+    font-size: 2.5rem;
+    margin: 2rem;
+    font-weight: bolder;
+    background-color: var(--amarelo01);
+}
+#apresentacao .text p{
+    font-size: 1.5rem;
+    margin: 2rem;
+    font-weight: bolder;
+}
+#apresentacao .text a{
+    background-color: var(--azul01);
+    padding: 0.5rem;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 1.75rem;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 2rem;
+    border: 1px solid transparent;
+}
+#apresentacao .text a:hover{
+    cursor: pointer;
+    background-color: var(--amarelo01);
+    font-size: 1.75rem;
+    border: 1px solid black;
+    color: #000;
+}
+.box_img_topo img{
+    border-radius: 10px;
+}
+
+/*Section parte 02*/
+
+#parte02{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(9,136,208);
+    background: linear-gradient(90deg, rgba(9,136,208,1) 0%, rgba(8,121,184,1) 33%, rgba(7,105,160,1) 60%, rgba(5,72,110,1) 100%);
+    padding: 1.5rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px #02e2f7;
+}
+#parte02 .explicacao h2{
+    color: #000;
+    margin: 2rem;
+    color: var(--amarelo02);
+}
+#parte02 .explicacao p{
+    color: #000;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 2rem;
+    color: var(--branco);
+}
+#parte02 .video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+/*Section parte 02*/
+
+#parte03{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    margin: 2rem;
+    padding: 1rem;
+}
+.text i{
+    color: #25D366;
+    padding-right: 0.5rem;
+}
+#parte03 .text h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 3rem;
+}
+#parte03 .text p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    text-align: start;margin: 0.5rem 0;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+.list ul h3{
+    font-size: 2.5rem;
+}
+.list ul i{
+    margin-right: 1rem;
+    color: #25D366;
+}
+.list ul li{
+    font-size: 1.5rem;
+    font-weight: bold;
+    list-style: none;
+    margin: 1.5rem;
+}
+.list div img{
+    border-radius: 10px;
+}
+/*------------SOBRE---------------------------------------------------------------------------*/
+
+#sobre{
+    width: 90%;
+    margin: 3rem auto;
+    background: rgb(9,136,208);
+    background: linear-gradient(90deg, rgba(9,136,208,1) 0%, rgba(8,121,184,1) 33%, rgba(7,105,160,1) 60%, rgba(5,72,110,1) 100%);
+    display: flex;
+}
+#sobre .img{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sobre .img img{
+    width: 80%;
+    height: 75%;
+    object-fit: cover;
+    border: 1px solid black;
+    box-shadow: 1px 10px 25px;
+}
+#sobre .conteudo{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sobre .conteudo h3{
+    font-size: 2.25rem;
+    padding: 1rem;
+    color: var(--branco);
+}
+#sobre .conteudo .text_sobre{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+    letter-spacing: 1px;
+    color: var(--branco);
+}
+#sobre .conteudo .info{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    color: var(--branco);
+}
+.info .number .n{
+    font-size: 2.25rem;
+    font-weight: bolder;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--amarelo02);
+}
+.info .number .t{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    background-color: var(--azul01);
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .redes a{
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding-top: 1rem;
+    margin: 0 0.35rem;
+}
